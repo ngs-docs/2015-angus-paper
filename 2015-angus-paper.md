@@ -97,7 +97,7 @@ presentations on their research.  Throughout, we encourage informal
 interaction between students and instructors / TAs throughout, with
 the goal of enabling students to ask whatever questions they want.
 
-The tutorials or practicals are the backbone of the course.  Tutorials
+While traditional lectures are employed to some degree, the tutorials or practicals are the backbone of the course.  Tutorials
 consist of a series of commands that can be copy/pasted at the shell,
 and are guaranteed to work the same way for all students when properly
 executed on the specified cloud computing platform.  The commands are
@@ -110,7 +110,7 @@ helping students who run into technical trouble.  In recent years, we
 have started using the Software Carpentry “sticky” system to make sure
 that the majority of the room has successfully reached the same point
 in the tutorial.  The tutorials remain available on the course Web
-site when the students leave, and generally remain functional due to
+site when the students leave (and open to anyone), and generally remain functional due to
 our use of a static cloud computing environment.
 
 We also keep a high TA:student ratio.  Each year we recruit four TAs
@@ -247,7 +247,7 @@ instructors for the first week who do not overwhelm the students, and
 we continually redesign the first week’s curriculum to streamline the
 materials and avoid too many ancillary topics.
 
-The copy/paste tutorials are both positive and negative.  At the
+The copy/paste tutorials have both positives and negatives.  At the
 beginning of the workshop, they enable students to gain familiarity
 with the command line, the standard workflows, and the kinds of output
 and error messages typical of UNIX.  While we encourage students to
@@ -309,6 +309,8 @@ pre-existing script.  This “teach me” exercise slows down the process
 enough for the students to grasp the different components and also
 involves clearing up some miscommunication about goals, computational
 details, and techniques.
+
+We have also experimented with sticky notes with "burning questions" that get placed on the wall. Each morning, one or more instructors looks through these and spends a few minutes addressing the questions. These are often about points of clarification for issues discussed earlier in the workshop, and thus provide an additional opportunity for reinforcement.
 
 We have introduced several tutorials and technologies through the
 years that we abandoned as failures.  Perhaps the most notable was an
@@ -385,7 +387,7 @@ required confusing path manipulations.
 
 * strongly guided/cohesive course layout.
 
-* who we are.
+* who we are. (ID: Yes I think this will help).
 
 * On the fly adaptation to each year.
 
@@ -407,4 +409,4 @@ required confusing path manipulations.
 
 * course fee
 
-* mention: mostly Illumina
+* mention: mostly Illumina (ID: yes, but can mention we have done some work with PacBIO and MinION)
