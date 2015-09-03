@@ -1,3 +1,18 @@
+# A workshop on high-throughput sequencing data analysis
+
+Authors:
+
+CTB
+Ian Dworkin
+Matt MacManes
+Meg Staton
+Chris Chandler
+Istvan Albert
+Amanda Charbonneau
+Likit Preeyanon
+
+## Introduction
+
 For 6 years, we have been organizing a 25-person two week workshop on
 bioinformatics analysis of large-scale sequencing data.  The workshop
 teaches command-line program execution to biologists; attendees
@@ -52,6 +67,8 @@ number of goals:
 Workshop attendees report good things (assessment).
 
 Experience report: informal interviews, etc.
+
+## Details
 
 The structure of the workshop has not varied substantially over the
 years: attendees arrive by noon on a Monday, and after a welcoming
@@ -205,7 +222,7 @@ switching to using Ubuntu Long Term Support images and providing
 explicit Debian package installation instructions in more recent
 years.
 
-# Lessons learned:
+## Lessons learned
 
 The introductory period of the workshop is incredibly important.  Many
 attendees seem to arrive at the workshop with computational impostor
@@ -360,7 +377,7 @@ entire Dropbox directory and have that set of deletions be
 synchronized; and, third, using Dropbox on remote Linux machines still
 required confusing path manipulations.
 
-Things we might or should discuss:
+## Things we might or should discuss:
 
 * Twitter, reproducibility, etc. Open science.
 
@@ -376,11 +393,11 @@ Things we might or should discuss:
 
 * Funding.
 
-* swtich to software carpentry in 2015; comments by students about ramping up.
+* switch to software carpentry in 2015; comments by students about ramping up.
 
 * can we scale?
 
-* graph of applicant nmbers
+* graph of applicant numbers
 
 * categories of applicants! who are “attendees”?
 
@@ -389,3 +406,5 @@ Things we might or should discuss:
 * week3 stuff from 2015? http://ivory.idyll.org/blog/2015-small-batch.html
 
 * course fee
+
+* mention: mostly Illumina
