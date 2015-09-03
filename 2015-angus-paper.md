@@ -1,15 +1,15 @@
-# A workshop on high-throughput sequencing data analysis
+# A zero-entry workshop on high-throughput sequencing data analysis
 
 Authors:
 
-CTB
-Ian Dworkin
-Matt MacManes
-Meg Staton
-Chris Chandler
-Istvan Albert
-Amanda Charbonneau
-Likit Preeyanon
+* CTB
+* Ian Dworkin
+* Matt MacManes
+* Meg Staton
+* Chris Chandler
+* Istvan Albert
+* Amanda Charbonneau
+* Likit Preeyanon
 
 ## Introduction
 
@@ -167,8 +167,8 @@ All significant computation is run remotely on Amazon Web Services
 installation, configuration, and execution of software, bypassing
 issues of laptop installations and hardware capacity.  While this does
 raise some additional challenges - a lack of graphical interaction and
-the relative inaccessibility of remote files are persistent challenges
-- in practice most bioinformaticians work remotely on UNIX machines,
+the relative inaccessibility of remote files are persistent challenges -
+in practice most bioinformaticians work remotely on UNIX machines,
 and so we believe that these challenges will need to be confronted by
 any student that continues to do bioinformatics analysis after the
 class.  In exchange, we suffer from virtually none of the challenges
@@ -335,8 +335,8 @@ it.
 
 We have tried several times to teach Python, with little evident
 success and much negative feedback. Student assessment shows that most
-students enter the workshop with absolutely no programming experience
-- many have never even seen R or Python before (@@).  While beginning
+students enter the workshop with absolutely no programming experience -
+many have never even seen R or Python before (@@).  While beginning
 exposure may be changing as data analysis with R becomes more
 prevalent, we still believe it is too much to try to teach any
 significant programming or scripting beyond recording of commands into
