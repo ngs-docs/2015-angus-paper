@@ -27,9 +27,9 @@ large scale sequencing data analysis to practicing research
 biologists.  The typical class contains an even mixture of advanced
 graduate students and postdocs, and also includes several faculty,
 technical staff, and industry researchers. Thus the students arrive
-with substantial biological expertise.  However, based on both surveys
+with substantial, but diverse biological expertise.  However, based on both surveys
 and discussion, half or more of the attendees have little to no
-experience with command-line programs, and have widely variable
+experience with command-line programs, nor familiarity with Unix more generally, and have widely variable
 experience with any genomics and bioinformatics.  As such, we have a
 number of goals:
 
@@ -38,9 +38,9 @@ number of goals:
   lack of ability to do computing, which presents a mental block for
   them in learning new computing techniques.  We attempt to overcome
   this by emphasizing the beginner level of the workshop and by
-  providing a very accommodating environment.
+  providing a very accommodating environment. In addition, with many instructors and "instructional assistants" available, we aim to accomodate multiple learning styles.
 
-* introduce attendees to command-line program execution. The UNIX
+* introduce attendees to command-line program execution and the use of remote machines. The UNIX
   shell is the prevailing methodology for bioinformatics analysis, and
   provides a common platform for program and workflow execution, but
   is something that most biologists have little formal exposure to.
@@ -58,7 +58,7 @@ number of goals:
 
 * introduce scripting in shell, R, and/or Python;
 
-* describe bioinformatics and statistics theory;
+* describe basic bioinformatics and statistics theory;
 
 * connect practical workflows to attendee research;
 
@@ -73,15 +73,15 @@ Experience report: informal interviews, etc.
 The structure of the workshop has not varied substantially over the
 years: attendees arrive by noon on a Monday, and after a welcoming
 lecture are introduced to Amazon Web Services and the UNIX command
-line.  Between Monday and Thursday of the first , we demonstrate basic
-sequence analysis at the command line, including BLAST, mapping (with
-bowtie or bwa), and assembly (with Velvet or SPAdes).  We also cover
+line. Thus the attendees are rapidly exposed to working on accessing and using remote machines for their computational needs.  Between Monday and Thursday of the first , we demonstrate basic
+sequence analysis at the command line, including BLAST, syntenic mapping (with
+bowtie or bwa), and genome assembly (with Velvet or SPAdes).  We also introduce (to varying degrees)
 experimental design, statistical analysis, and scripting and
-automation. On Saturday afternoon we break until the second Monday
+automation during this first week. On Saturday afternoon we break until the second Monday
 morning.  During the second week we focus on applying complete
 workflows to exemplar data sets — starting in 2013, we have organized
 an in-depth mRNAseq differential expression analysis tutorial that
-introduces and compares commonly used tools such as DEseq2 and edgeR.
+introduces and compares commonly used tools for counting (i.e. eXpress and HTSeq) and data modeling such as DEseq2 and edgeR. In addition to providing some example end-to-end workflows, this enables reinforcement and extension of many of the concepts from week 1.
 We then round out the week by discussing reproducibility, version
 control, and other more general topics.  After a summative assessment,
 a final lecture, and an informal evaluation, the attendees depart.
