@@ -71,9 +71,9 @@ Experience report: informal interviews, etc.
 ## Details
 
 The structure of the workshop has not varied substantially over the
-years: attendees arrive by noon on a Monday, and after a welcoming
+years: attendees arrive by noon on a Monday, and after a welcome
 lecture are introduced to Amazon Web Services and the UNIX command
-line.  Between Monday and Thursday of the first , we demonstrate basic
+line.  Between Monday and Thursday of the first week, we demonstrate basic
 sequence analysis at the command line, including BLAST, mapping (with
 bowtie or bwa), and assembly (with Velvet or SPAdes).  We also cover
 experimental design, statistical analysis, and scripting and
@@ -105,7 +105,7 @@ interspersed with discussion text and external links for more
 information.  Typically tutorials are presented by a lecturer who
 works through the tutorial interactively, discusses what each step is
 doing and why we are doing it, and addresses any questions from the
-audience.  The TAs and other instructors circulate around the room
+audience.  TAs and other instructors circulate around the room
 helping students who run into technical trouble.  In recent years, we
 have started using the Software Carpentry “sticky” system to make sure
 that the majority of the room has successfully reached the same point
@@ -136,7 +136,7 @@ it at angus.readthedocs.org/.  Configuring the 2015 workshop took
 approximately 5 minutes (to create a new GitHub branch and add it to
 ReadTheDocs); adding new tutorials and building the site is likewise
 nearly instantaneous.  An important benefit of this approach is that
-the materials remain available through both GitHub and ReadTheDocs
+each years materials remain available through both GitHub and ReadTheDocs
 automatically and indefinitely, and can be easily reused (via forking,
 in GitHub) by any student or instructor.
 
@@ -377,6 +377,18 @@ entire Dropbox directory and have that set of deletions be
 synchronized; and, third, using Dropbox on remote Linux machines still
 required confusing path manipulations.
 
+This challenge is exacerbated by a lack of easy to use SSH clients
+for Windows users. To our knowledge, the best options currently 
+available are MobaXterm and GitBash, however neither offers a user
+friendly introduction to command line usage. For instance, both programs come 
+with copy/paste disabled by default, and even once activated, the controls
+are unintuitive: <Enter> to copy and right-click to paste. These seemingly
+small omissions and deviations from normal use can add a tremendous
+amount of cognitive load to using the shell, and cause real frustration
+during the first few days of the course when we rely heavily on copy/paste
+style tutorials. 
+
+
 ## Things we might or should discuss:
 
 * Twitter, reproducibility, etc. Open science.
@@ -408,3 +420,6 @@ required confusing path manipulations.
 * course fee
 
 * mention: mostly Illumina
+
+* Requests for action/tools/etc that make this kind of course easier 
+
